@@ -1,4 +1,4 @@
-﻿{
+{
   "Version": "1.1",
   "Apps": [
     {
@@ -7,7 +7,8 @@
       "Description": "Video editor from Microsoft",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "3D Builder",
@@ -15,7 +16,8 @@
       "Description": "Basic 3D modeling software",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Cortana",
@@ -23,7 +25,8 @@
       "Description": "Microsoft Cortana voice assistant (Discontinued)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Bing Finance",
@@ -31,7 +34,8 @@
       "Description": "Finance news and tracking via Bing (Discontinued)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Bing Food And Drink",
@@ -39,7 +43,8 @@
       "Description": "Recipes and food news via Bing (Discontinued)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Bing Health And Fitness",
@@ -47,7 +52,8 @@
       "Description": "Health and fitness tracking/news via Bing (Discontinued)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Bing News",
@@ -55,7 +61,8 @@
       "Description": "News aggregator via Bing (Replaced by Microsoft News/Start)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Bing Sports",
@@ -63,7 +70,8 @@
       "Description": "Sports news and scores via Bing (Discontinued)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Bing Translator",
@@ -71,7 +79,8 @@
       "Description": "Translation service via Bing",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Bing Travel",
@@ -79,7 +88,8 @@
       "Description": "Travel planning and news via Bing (Discontinued)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Bing Weather",
@@ -87,7 +97,8 @@
       "Description": "Weather forecast via Bing",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Microsoft Copilot",
@@ -95,7 +106,8 @@
       "Description": "AI assistant integrated into Windows",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "WinGet"
+      "RemovalMethod": "WinGet",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Copilot+ AI Hub",
@@ -103,7 +115,8 @@
       "Description": "Copilot+ AI Hub app (Windows 11 24H2+)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Microsoft PC Manager",
@@ -111,7 +124,8 @@
       "Description": "Microsoft PC Manager system cleanup and optimization tool (often preinstalled)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Get Started",
@@ -119,7 +133,8 @@
       "Description": "Tips and introductory guide for Windows (Cannot be uninstalled in Windows 11)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Messaging",
@@ -127,7 +142,8 @@
       "Description": "Messaging app, often integrates with Skype (Largely discontinued)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "3D Viewer",
@@ -135,7 +151,8 @@
       "Description": "Viewer for 3D models",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Microsoft Journal",
@@ -143,7 +160,8 @@
       "Description": "Digital note-taking app optimized for pen input",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Office Hub",
@@ -151,7 +169,8 @@
       "Description": "Hub to access Microsoft Office apps and documents (Precursor to Microsoft 365 app)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Power BI",
@@ -159,7 +178,8 @@
       "Description": "Business analytics service client",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Solitaire Collection",
@@ -167,7 +187,8 @@
       "Description": "Collection of solitaire card games",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Sticky Notes",
@@ -175,7 +196,8 @@
       "Description": "Digital sticky notes app (Discontinued & replaced by OneNote)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Mixed Reality Portal",
@@ -183,7 +205,8 @@
       "Description": "Portal for Windows Mixed Reality headsets",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Network Speed Test",
@@ -191,7 +214,8 @@
       "Description": "Internet connection speed test utility",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Microsoft News",
@@ -199,7 +223,8 @@
       "Description": "News aggregator (Replaced Bing News, now part of Microsoft Start)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "OneNote",
@@ -207,7 +232,8 @@
       "Description": "Digital note-taking app (Universal Windows Platform version)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Sway",
@@ -215,7 +241,8 @@
       "Description": "Presentation and storytelling app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "One Connect",
@@ -223,7 +250,8 @@
       "Description": "Mobile Operator management app (Replaced by Mobile Plans)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Print 3D",
@@ -231,7 +259,8 @@
       "Description": "3D printing preparation software",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Power Automate",
@@ -239,7 +268,8 @@
       "Description": "Desktop automation tool (RPA)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Skype (UWP)",
@@ -247,7 +277,8 @@
       "Description": "Skype communication app, Universal Windows Platform version (Discontinued)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Microsoft To Do",
@@ -255,7 +286,8 @@
       "Description": "To-do list and task management app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Dev Home",
@@ -263,7 +295,8 @@
       "Description": "Developer dashboard and tool configuration utility (Discontinued)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Alarms & Clock",
@@ -271,7 +304,8 @@
       "Description": "Alarms & Clock app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Feedback Hub",
@@ -279,7 +313,8 @@
       "Description": "App for providing feedback to Microsoft on Windows",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Windows Maps",
@@ -287,7 +322,8 @@
       "Description": "Mapping and navigation app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Sound Recorder",
@@ -295,7 +331,8 @@
       "Description": "Basic audio recording app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Xbox Console Companion",
@@ -303,7 +340,8 @@
       "Description": "Old Xbox Console Companion App (Discontinued)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Movies & TV",
@@ -311,7 +349,8 @@
       "Description": "Movies & TV app for renting/buying/playing video content (Rebranded as \"Films & TV\")",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Family Safety",
@@ -319,7 +358,8 @@
       "Description": "Family Safety App for managing family accounts and settings",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Quick Assist",
@@ -327,7 +367,8 @@
       "Description": "Remote assistance tool",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Microsoft Teams (Old)",
@@ -335,7 +376,8 @@
       "Description": "Old Microsoft Teams personal (MS Store version)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Microsoft Teams (New)",
@@ -343,7 +385,8 @@
       "Description": "New Microsoft Teams app (Work/School or Personal)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "ACG Media Player",
@@ -351,7 +394,8 @@
       "Description": "Media player app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Actipro Software",
@@ -359,7 +403,8 @@
       "Description": "Potentially UI controls or software components, often bundled by OEMs",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Adobe Photoshop Express",
@@ -367,7 +412,8 @@
       "Description": "Basic photo editing app from Adobe",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Amazon",
@@ -375,7 +421,8 @@
       "Description": "Amazon shopping app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Prime Video",
@@ -383,7 +430,8 @@
       "Description": "Amazon Prime Video streaming service app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Asphalt 8",
@@ -391,7 +439,8 @@
       "Description": "Racing game",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Autodesk SketchBook",
@@ -399,7 +448,8 @@
       "Description": "Digital drawing and sketching app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Caesars Slots",
@@ -407,7 +457,8 @@
       "Description": "Casino slot machine game",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Cooking Fever",
@@ -415,7 +466,8 @@
       "Description": "Restaurant simulation game",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "CyberLink Media Suite",
@@ -423,7 +475,8 @@
       "Description": "Multimedia software suite (often preinstalled by OEMs)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Disney Magic Kingdoms",
@@ -431,7 +484,8 @@
       "Description": "Disney theme park building game",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Disney+",
@@ -439,7 +493,8 @@
       "Description": "Disney+ streaming service app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Drawboard PDF",
@@ -447,7 +502,8 @@
       "Description": "PDF viewing and annotation app, often focused on pen input",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Duolingo",
@@ -455,7 +511,8 @@
       "Description": "Language learning app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Eclipse Manager",
@@ -463,7 +520,8 @@
       "Description": "Often related to specific OEM software or utilities (e.g. for managing screen settings)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Facebook",
@@ -471,7 +529,8 @@
       "Description": "Facebook social media app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "FarmVille 2",
@@ -479,7 +538,8 @@
       "Description": "Farming simulation game",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Flipboard",
@@ -487,7 +547,8 @@
       "Description": "News and social network aggregator styled as a magazine",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Hidden City",
@@ -495,7 +556,8 @@
       "Description": "Hidden object puzzle adventure game",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Hulu",
@@ -503,7 +565,8 @@
       "Description": "Hulu streaming service app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "iHeartRadio",
@@ -511,7 +574,8 @@
       "Description": "Internet radio streaming app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Instagram",
@@ -519,7 +583,8 @@
       "Description": "Instagram social media app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Bubble Witch 3",
@@ -527,7 +592,8 @@
       "Description": "Puzzle game from King",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Candy Crush Saga",
@@ -535,7 +601,8 @@
       "Description": "Puzzle game from King",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Candy Crush Soda",
@@ -543,7 +610,8 @@
       "Description": "Puzzle game from King",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "LinkedIn",
@@ -551,7 +619,8 @@
       "Description": "LinkedIn professional networking app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "March of Empires",
@@ -559,7 +628,8 @@
       "Description": "Strategy game",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Netflix",
@@ -567,7 +637,8 @@
       "Description": "Netflix streaming service app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "NYT Crossword",
@@ -575,7 +646,8 @@
       "Description": "New York Times crossword puzzle app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "One Calendar",
@@ -583,7 +655,8 @@
       "Description": "Calendar aggregation app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Pandora",
@@ -591,7 +664,8 @@
       "Description": "Pandora music streaming app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Phototastic Collage",
@@ -599,7 +673,8 @@
       "Description": "Photo collage creation app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "PicsArt",
@@ -607,7 +682,8 @@
       "Description": "Photo editing and creative app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Polarr Photo Editor",
@@ -615,7 +691,8 @@
       "Description": "Photo editing app (Academic Edition)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Royal Revolt",
@@ -623,7 +700,8 @@
       "Description": "Tower defense / strategy game",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Live Wallpaper",
@@ -631,7 +709,8 @@
       "Description": "Live wallpaper app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Sling TV",
@@ -639,7 +718,8 @@
       "Description": "Live TV streaming service app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Spotify",
@@ -647,7 +727,8 @@
       "Description": "Spotify music streaming app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "TikTok",
@@ -655,7 +736,8 @@
       "Description": "TikTok short-form video app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "TuneIn Radio",
@@ -663,7 +745,8 @@
       "Description": "Internet radio streaming app",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "WinZip",
@@ -671,7 +754,8 @@
       "Description": "File compression and extraction utility (Universal Windows Platform version)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Bing Search",
@@ -679,15 +763,20 @@
       "Description": "Web Search from Microsoft Bing (Integrates into Windows Search)",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Microsoft Edge",
-      "AppId": ["Microsoft.Edge", "XPFFTQ037JWMHS"],
+      "AppId": [
+        "Microsoft.Edge",
+        "XPFFTQ037JWMHS"
+      ],
       "Description": "Windows' default browser, WARNING: Removing this app also removes the only browser from Windows Sandbox and could affect other apps",
       "SelectedByDefault": false,
       "Recommendation": "unsafe",
-      "RemovalMethod": "WinGet"
+      "RemovalMethod": "WinGet",
+      "AutoModeDefault": "protected"
     },
     {
       "FriendlyName": "Xbox Gaming App",
@@ -695,7 +784,8 @@
       "Description": "Modern Xbox Gaming App, required for installing some PC games",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Get Help",
@@ -703,7 +793,8 @@
       "Description": "Required for some Windows 11 Troubleshooters and support interactions",
       "SelectedByDefault": false,
       "Recommendation": "unsafe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "protected"
     },
     {
       "FriendlyName": "Microsoft 365 Companions",
@@ -711,7 +802,8 @@
       "Description": "Microsoft 365 (Business) Calendar, Files and People mini-apps, these apps may be reinstalled if enabled by your Microsoft 365 admin",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Paint 3D",
@@ -719,7 +811,8 @@
       "Description": "Paint 3D (Modern paint application with 3D features)",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "OneDrive",
@@ -727,7 +820,8 @@
       "Description": "OneDrive consumer cloud storage client",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "WinGet"
+      "RemovalMethod": "WinGet",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Outlook for Windows",
@@ -735,7 +829,8 @@
       "Description": "New Outlook for Windows mail client",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Paint",
@@ -743,7 +838,8 @@
       "Description": "Classic Paint (Traditional 2D paint application)",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "keep"
     },
     {
       "FriendlyName": "People",
@@ -751,7 +847,8 @@
       "Description": "Required for & included with Mail & Calendar (discontinued)",
       "SelectedByDefault": false,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Remote Desktop",
@@ -759,7 +856,8 @@
       "Description": "Remote Desktop client app",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "keep"
     },
     {
       "FriendlyName": "Snipping Tool",
@@ -767,7 +865,8 @@
       "Description": "Snipping Tool (Screenshot and annotation tool)",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "keep"
     },
     {
       "FriendlyName": "Widgets Experience",
@@ -775,7 +874,8 @@
       "Description": "This app powers Windows Widgets My Feed",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Whiteboard",
@@ -783,7 +883,8 @@
       "Description": "Digital collaborative whiteboard app",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Photos",
@@ -791,7 +892,8 @@
       "Description": "Default photo viewing and basic editing app",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "keep"
     },
     {
       "FriendlyName": "Calculator",
@@ -799,7 +901,8 @@
       "Description": "Calculator app",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "keep"
     },
     {
       "FriendlyName": "Camera",
@@ -807,7 +910,8 @@
       "Description": "Camera app for using built-in or connected cameras",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "keep"
     },
     {
       "FriendlyName": "Mail & Calendar",
@@ -815,7 +919,8 @@
       "Description": "Mail & Calendar app suite (Discontinued)",
       "SelectedByDefault": false,
       "Recommendation": "safe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Notepad",
@@ -823,7 +928,8 @@
       "Description": "Notepad text editor app",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "keep"
     },
     {
       "FriendlyName": "Microsoft Store",
@@ -831,7 +937,8 @@
       "Description": "Microsoft Store, WARNING: This app cannot be reinstalled easily if removed!",
       "SelectedByDefault": false,
       "Recommendation": "unsafe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "protected"
     },
     {
       "FriendlyName": "Windows Terminal",
@@ -839,7 +946,8 @@
       "Description": "Default terminal app in windows 11 (Command Prompt, PowerShell, WSL), WARNING: Do not remove if you launched Win11Debloat from Windows Terminal, as this will cause the script to fail.",
       "SelectedByDefault": false,
       "Recommendation": "unsafe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "protected"
     },
     {
       "FriendlyName": "Xbox TCUI Framework",
@@ -847,7 +955,8 @@
       "Description": "UI framework, seems to be required for Microsoft Store, photos and certain games",
       "SelectedByDefault": false,
       "Recommendation": "unsafe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "protected"
     },
     {
       "FriendlyName": "Xbox Game Overlay",
@@ -855,7 +964,8 @@
       "Description": "Game overlay, required/useful for some games (Part of Xbox Game Bar)",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Xbox Gaming Overlay",
@@ -863,7 +973,8 @@
       "Description": "Game overlay, required/useful for some games (Part of Xbox Game Bar)",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Xbox Identity Provider",
@@ -871,7 +982,8 @@
       "Description": "Xbox sign-in framework, required for some games and Xbox services",
       "SelectedByDefault": false,
       "Recommendation": "unsafe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "protected"
     },
     {
       "FriendlyName": "Xbox Speech To Text",
@@ -879,7 +991,8 @@
       "Description": "Accessibility feature required for some games, WARNING: This app cannot be reinstalled easily!",
       "SelectedByDefault": false,
       "Recommendation": "unsafe",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "protected"
     },
     {
       "FriendlyName": "Phone Link",
@@ -887,7 +1000,8 @@
       "Description": "Phone link (Connects Android/iOS phone to PC)",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Media Player",
@@ -895,7 +1009,8 @@
       "Description": "Modern Media Player (Replaced Groove Music, plays local audio/video)",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "keep"
     },
     {
       "FriendlyName": "Cross Device Experience",
@@ -903,7 +1018,8 @@
       "Description": "Phone integration within File Explorer, Camera and more (Part of Phone Link features)",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Windows Web Experience Pack",
@@ -911,7 +1027,8 @@
       "Description": "Helps deliver and update certain features, like Widgets, through the Microsoft Store",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Widgets Platform Runtime",
@@ -919,7 +1036,8 @@
       "Description": "Runtime required for Windows Widgets to function",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "HP AI Experience Center",
@@ -927,7 +1045,8 @@
       "Description": "HP OEM software, AI-enhanced features and support",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "HP Connected Music",
@@ -935,7 +1054,8 @@
       "Description": "HP OEM software for music (Potentially discontinued)",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "HP Connected Photo",
@@ -943,7 +1063,8 @@
       "Description": "HP OEM software for photos, integrated with Snapfish (Potentially discontinued)",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "HP Desktop Support Utilities",
@@ -951,7 +1072,8 @@
       "Description": "HP OEM software providing desktop support tools",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "HP Easy Clean",
@@ -959,7 +1081,8 @@
       "Description": "HP OEM software for system cleaning or optimization",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "HP File Viewer",
@@ -967,7 +1090,8 @@
       "Description": "HP OEM software for viewing specific file types",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "HP JumpStarts",
@@ -975,7 +1099,8 @@
       "Description": "HP OEM software for tutorials, app discovery, or quick access to HP features",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "HP PC Hardware Diagnostics",
@@ -983,7 +1108,8 @@
       "Description": "HP OEM software for PC hardware diagnostics",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "keep"
     },
     {
       "FriendlyName": "HP Power Manager",
@@ -991,7 +1117,8 @@
       "Description": "HP OEM software for managing power settings and battery",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "keep"
     },
     {
       "FriendlyName": "HP Printer Control",
@@ -999,7 +1126,8 @@
       "Description": "HP OEM software for managing HP printers",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "HP Privacy Settings",
@@ -1007,7 +1135,8 @@
       "Description": "HP OEM software for managing privacy settings",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "HP QuickDrop",
@@ -1015,7 +1144,8 @@
       "Description": "HP OEM software for quick file transfer between devices",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "HP QuickTouch",
@@ -1023,7 +1153,8 @@
       "Description": "HP OEM software, possibly for touch-specific shortcuts or controls",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "HP Registration",
@@ -1031,7 +1162,8 @@
       "Description": "HP OEM software for product registration",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "HP Support Assistant",
@@ -1039,7 +1171,8 @@
       "Description": "HP OEM software for support, updates, and troubleshooting",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "HP Sure Shield AI",
@@ -1047,7 +1180,8 @@
       "Description": "HP OEM security software, likely AI-based threat protection",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "HP System Information",
@@ -1055,7 +1189,8 @@
       "Description": "HP OEM software for displaying system information",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "HP Welcome",
@@ -1063,7 +1198,8 @@
       "Description": "HP OEM software providing a welcome experience or initial setup help",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "HP WorkWell",
@@ -1071,7 +1207,8 @@
       "Description": "HP OEM software focused on well-being, possibly with break reminders or ergonomic tips",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "myHP",
@@ -1079,7 +1216,8 @@
       "Description": "HP OEM central hub app for device info, support, and services",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Lenovo Vantage",
@@ -1087,7 +1225,8 @@
       "Description": "Lenovo OEM hub app for device settings, updates, and support",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "keep"
     },
     {
       "FriendlyName": "Lenovo Vantage Service",
@@ -1095,7 +1234,8 @@
       "Description": "Background service component for Lenovo Vantage",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "keep"
     },
     {
       "FriendlyName": "Dell SupportAssist",
@@ -1103,7 +1243,8 @@
       "Description": "Dell OEM support, diagnostic, and update tool",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "keep"
     },
     {
       "FriendlyName": "Dell Digital Delivery Services",
@@ -1111,7 +1252,8 @@
       "Description": "Dell OEM software for delivering pre-purchased software",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
     },
     {
       "FriendlyName": "Dell Mobile Connect",
@@ -1119,7 +1261,89 @@
       "Description": "Dell OEM app for linking Android/iOS phone to PC (superseded by Phone Link)",
       "SelectedByDefault": false,
       "Recommendation": "optional",
-      "RemovalMethod": "Appx"
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
+    },
+    {
+      "FriendlyName": "McAfee Security",
+      "AppId": "McAfee.McAfee",
+      "Description": "McAfee antivirus trial preinstalled by OEMs",
+      "SelectedByDefault": false,
+      "Recommendation": "safe",
+      "RemovalMethod": "WinGet",
+      "AutoModeDefault": "remove"
+    },
+    {
+      "FriendlyName": "McAfee WebAdvisor",
+      "AppId": "McAfee.WebAdvisor",
+      "Description": "McAfee browser safety tool bundled by OEMs",
+      "SelectedByDefault": false,
+      "Recommendation": "safe",
+      "RemovalMethod": "WinGet",
+      "AutoModeDefault": "remove"
+    },
+    {
+      "FriendlyName": "Norton 360",
+      "AppId": "NortonLifeLock.Norton360",
+      "Description": "Norton antivirus trial preinstalled by OEMs",
+      "SelectedByDefault": false,
+      "Recommendation": "safe",
+      "RemovalMethod": "WinGet",
+      "AutoModeDefault": "remove"
+    },
+    {
+      "FriendlyName": "WildTangent Games",
+      "AppId": "WildTangent.WildTangentGames",
+      "Description": "OEM-bundled casual games launcher",
+      "SelectedByDefault": false,
+      "Recommendation": "safe",
+      "RemovalMethod": "WinGet",
+      "AutoModeDefault": "remove"
+    },
+    {
+      "FriendlyName": "ASUS MyASUS",
+      "AppId": "B9EBBE6Y6K1RS",
+      "Description": "ASUS OEM hub app",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
+    },
+    {
+      "FriendlyName": "ASUS Armoury Crate",
+      "AppId": "ArmouryCrate",
+      "Description": "ASUS gaming software hub (bloat on non-gaming machines)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
+    },
+    {
+      "FriendlyName": "Acer Care Center",
+      "AppId": "AcerIncorporated.AcerCareCenter",
+      "Description": "Acer OEM support and optimization tool",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
+    },
+    {
+      "FriendlyName": "MSI Center",
+      "AppId": "MSICenterService",
+      "Description": "MSI OEM software hub",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "remove"
+    },
+    {
+      "FriendlyName": "Lenovo Legion Toolkit",
+      "AppId": "E046963F.LenovoLegionToolkit",
+      "Description": "Lenovo Legion gaming laptop hardware management",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx",
+      "AutoModeDefault": "keep"
     }
   ],
   "Presets": [

@@ -96,7 +96,8 @@ param (
     [switch]$ShowDriveLettersFirst,
     [switch]$ShowDriveLettersLast,
     [switch]$ShowNetworkDriveLettersFirst,
-    [switch]$HideDriveLetters
+    [switch]$HideDriveLetters,
+    [switch]$AutoMode
 )
 
 # Check if script is running as administrator
@@ -162,6 +163,7 @@ $script:ImportExportConfigSchema = Join-Path $schemasPath 'ImportExportConfigWin
 $script:RestoreBackupWindowSchema = Join-Path $schemasPath 'RestoreBackupWindow.xaml'
 $script:LoadAppsDetailsScriptPath = Join-Path (Join-Path $scriptsPath 'FileIO') 'LoadAppsDetailsFromJson.ps1'
 $script:TestAppInWingetListScriptPath = Join-Path (Join-Path $scriptsPath 'AppRemoval') 'Test-AppInWingetList.ps1'
+$script:AutoModeSettingsFilePath = Join-Path $configPath 'AutoModeSettings.json'
 
 $script:ControlParams = 'WhatIf', 'Confirm', 'Verbose', 'Debug', 'LogPath', 'Silent', 'Sysprep', 'User', 'NoRestartExplorer', 'RunDefaults', 'RunDefaultsLite', 'RunSavedSettings', 'Config', 'CLI', 'AppRemovalTarget'
 
@@ -300,6 +302,8 @@ if (-not $script:WingetInstalled -and -not $Silent) {
 . "$PSScriptRoot/Scripts/CLI/ShowCLIDefaultModeOptions.ps1"
 . "$PSScriptRoot/Scripts/CLI/ShowCLIAppRemoval.ps1"
 . "$PSScriptRoot/Scripts/CLI/ShowCLIMenuOptions.ps1"
+. "$PSScriptRoot/Scripts/CLI/ShowCLIAutoMode.ps1"
+. "$PSScriptRoot/Scripts/AppRemoval/Remove-AppLeftovers.ps1"
 . "$PSScriptRoot/Scripts/CLI/PrintPendingChanges.ps1"
 . "$PSScriptRoot/Scripts/CLI/PrintHeader.ps1"
 
@@ -451,7 +455,10 @@ if ((Test-Path $script:SavedSettingsFilePath) -and ([String]::IsNullOrWhiteSpace
 $launchInCLI = $CLI -or $script:Params.ContainsKey("User") -or $script:Params.ContainsKey("Sysprep") -or $script:Params.ContainsKey("AppRemovalTarget")
 
 # Change script execution based on provided parameters or user input
-if ((-not $script:Params.Count) -or $RunDefaults -or $RunDefaultsLite -or $RunSavedSettings -or $Config -or ($controlParamsCount -eq $script:Params.Count)) {
+if ($AutoMode) {
+    ShowCLIAutoMode
+}
+elseif ((-not $script:Params.Count) -or $RunDefaults -or $RunDefaultsLite -or $RunSavedSettings -or $Config -or ($controlParamsCount -eq $script:Params.Count)) {
     if ($RunDefaults -or $RunDefaultsLite) {
         ShowCLIDefaultModeOptions
     }
@@ -539,6 +546,13 @@ if (($controlParamsCount -eq $script:Params.Keys.Count) -or ($script:Params.Keys
 # Execute all selected/provided parameters using the consolidated function
 # (This also handles restore point creation if requested)
 Invoke-AllChanges
+
+# Run generic leftover scan when AutoMode was used
+if ($AutoMode -and $script:AutoModeRemovedNames -and $script:AutoModeRemovedNames.Count -gt 0) {
+    Write-Host ""
+    Write-Host "> Running leftover cleanup scan..."
+    Invoke-GenericLeftoverScan -RemovedAppNames $script:AutoModeRemovedNames
+}
 
 RestartExplorer
 
