@@ -18,12 +18,12 @@ try {
     # Check for WinGet
     if (-not (Get-Command winget -ErrorAction SilentlyContinue)) {
         Write-Host ""
-        Write-Host "  ════════════════════════════════════════════════════════" -ForegroundColor Yellow
+        Write-Host "  ========================================================" -ForegroundColor Yellow
         Write-Host "   WARNING: WinGet is not installed." -ForegroundColor Yellow
         Write-Host "   Some apps require WinGet for removal (OneDrive, Edge, etc.)." -ForegroundColor Yellow
         Write-Host "   Install WinGet with:" -ForegroundColor Yellow
         Write-Host '   & ([scriptblock]::Create((irm "https://aka.ms/getwinget")))' -ForegroundColor Cyan
-        Write-Host "  ════════════════════════════════════════════════════════" -ForegroundColor Yellow
+        Write-Host "  ========================================================" -ForegroundColor Yellow
         Write-Host ""
         Write-Host "Press any key once WinGet is installed, or any key to continue without it..." -ForegroundColor Gray
         $null = [System.Console]::ReadKey()

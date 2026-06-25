@@ -24,14 +24,14 @@ function ShowCLIAutoMode {
     while ($true) {
         Clear-Host
         Write-Host ""
-        Write-Host "  ═══════════════════════════════════════════════════════════════" -ForegroundColor DarkCyan
-        Write-Host "   WIN11 AUTODEBLOAT  ·  github.com/JevonThompsonx/Win11Debloat" -ForegroundColor Cyan
+        Write-Host "  ===============================================================" -ForegroundColor DarkCyan
+        Write-Host "   WIN11 AUTODEBLOAT  -  github.com/JevonThompsonx/Win11Debloat" -ForegroundColor Cyan
         Write-Host "   All REMOVE apps are pre-selected. Type numbers to skip/add." -ForegroundColor Gray
         Write-Host "   'a' = unlock protected apps  |  'q' = quit  |  'c' = CONFIRM" -ForegroundColor Gray
-        Write-Host "  ═══════════════════════════════════════════════════════════════" -ForegroundColor DarkCyan
+        Write-Host "  ===============================================================" -ForegroundColor DarkCyan
         Write-Host ""
         Write-Host ("  {0,3}  {1,-8}  {2,-34} {3}" -f "#", "STATUS", "APP", "CATEGORY") -ForegroundColor DarkGray
-        Write-Host ("  {0}  {1}  {2} {3}" -f ("─" * 4), ("─" * 8), ("─" * 34), ("─" * 18)) -ForegroundColor DarkGray
+        Write-Host ("  {0}  {1}  {2} {3}" -f ("-" * 4), ("-" * 8), ("-" * 34), ("-" * 18)) -ForegroundColor DarkGray
 
         # Sort: remove first, then keep, then protected
         $sorted = $apps | Sort-Object { switch ($_.State) { 'remove' { 0 } 'skip' { 1 } 'keep' { 2 } 'protected' { 3 } default { 4 } } }, { $_.Category }, { $_.Name }
@@ -132,7 +132,7 @@ function ShowCLIAutoMode {
     Clear-Host
     Write-Host ""
     Write-Host "  $($selectedIds.Count) apps queued for removal." -ForegroundColor Green
-    Write-Host "  Applying settings and removing apps — this may take several minutes..." -ForegroundColor Gray
+    Write-Host "  Applying settings and removing apps - this may take several minutes..." -ForegroundColor Gray
     Write-Host ""
 }
 
