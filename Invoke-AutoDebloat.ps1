@@ -1,5 +1,5 @@
 # Invoke-AutoDebloat.ps1
-# One-liner bootstrap: & ([scriptblock]::Create((irm "https://raw.githubusercontent.com/JevonThompsonx/Win11Debloat/main/Invoke-AutoDebloat.ps1")))
+# One-liner bootstrap: & ([scriptblock]::Create((irm "https://raw.githubusercontent.com/JevonThompsonx/Win11Debloat/master/Invoke-AutoDebloat.ps1")))
 
 $ErrorActionPreference = 'Stop'
 
@@ -37,7 +37,7 @@ try {
     # Download repo ZIP
     Write-Host ""
     Write-Host "Downloading Win11Debloat..." -ForegroundColor Cyan
-    Invoke-WebRequest "https://github.com/JevonThompsonx/Win11Debloat/archive/refs/heads/main.zip" `
+    Invoke-WebRequest "https://github.com/JevonThompsonx/Win11Debloat/archive/refs/heads/master.zip" `
         -OutFile "$workDir\repo.zip" -UseBasicParsing
 
     # Extract ZIP
@@ -45,7 +45,7 @@ try {
     Expand-Archive "$workDir\repo.zip" -DestinationPath $workDir -Force
 
     # Locate extracted root
-    $root = Join-Path $workDir "Win11Debloat-main"
+    $root = Join-Path $workDir "Win11Debloat-master"
 
     if (-not (Test-Path $root)) {
         throw "Expected extraction path not found: $root"
