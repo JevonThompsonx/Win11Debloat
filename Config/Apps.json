@@ -107,7 +107,7 @@
       "SelectedByDefault": true,
       "Recommendation": "safe",
       "RemovalMethod": "WinGet",
-      "AutoModeDefault": "remove"
+      "AutoModeDefault": "skip"
     },
     {
       "FriendlyName": "Copilot+ AI Hub",
