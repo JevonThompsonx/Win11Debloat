@@ -112,6 +112,14 @@ function ShowCLIAutoMode {
     }
 
     $script:AutoModeRemovedNames = $selectedNames.ToArray()
+    $script:AutoModeRemovedIds   = $selectedIds.ToArray()
+
+    # Kill OneDrive before WinGet tries to uninstall it - prevents exit code 2147747483
+    if ($selectedIds -contains 'Microsoft.OneDrive') {
+        Stop-Process -Name 'OneDrive' -Force -ErrorAction SilentlyContinue
+        Stop-Process -Name 'OneDriveSetup' -Force -ErrorAction SilentlyContinue
+        Start-Sleep -Seconds 1
+    }
 
     if ($selectedIds.Count -eq 0) {
         Write-Host "No apps selected for removal." -ForegroundColor Yellow

@@ -1307,7 +1307,7 @@
       "SelectedByDefault": false,
       "Recommendation": "optional",
       "RemovalMethod": "Appx",
-      "AutoModeDefault": "remove"
+      "AutoModeDefault": "keep"
     },
     {
       "FriendlyName": "ASUS Armoury Crate",

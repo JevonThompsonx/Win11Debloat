@@ -554,6 +554,11 @@ if ($AutoMode -and $script:AutoModeRemovedNames -and $script:AutoModeRemovedName
     Invoke-GenericLeftoverScan -RemovedAppNames $script:AutoModeRemovedNames
 }
 
+# Verify removals and report what's still present
+if ($AutoMode -and $script:AutoModeRemovedIds -and $script:AutoModeRemovedIds.Count -gt 0) {
+    Invoke-RemovalVerification -AppIds $script:AutoModeRemovedIds
+}
+
 RestartExplorer
 
 Write-Output ""

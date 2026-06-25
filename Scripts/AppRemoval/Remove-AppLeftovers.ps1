@@ -208,3 +208,43 @@ function Invoke-GenericLeftoverScan {
 
     Write-Host "  Leftover cleanup complete." -ForegroundColor Green
 }
+
+
+function Invoke-RemovalVerification {
+    param([string[]]$AppIds)
+
+    if (-not $AppIds -or $AppIds.Count -eq 0) { return }
+
+    Write-Host ""
+    Write-Host "> Verifying removals..." -ForegroundColor Cyan
+
+    $stillPresent = [System.Collections.Generic.List[string]]::new()
+    $confirmed    = [System.Collections.Generic.List[string]]::new()
+
+    # Build installed Appx list once (faster than per-app calls)
+    $installedAppx = Get-AppxPackage -AllUsers -ErrorAction SilentlyContinue
+
+    foreach ($id in $AppIds) {
+        $found = $false
+
+        $match = $installedAppx | Where-Object { $_.Name -eq $id }
+        if ($match) { $found = $true }
+
+        # OneDrive Win32 fallback check
+        if (-not $found -and $id -eq 'Microsoft.OneDrive') {
+            $odPath = Join-Path $env:LOCALAPPDATA 'Microsoft\OneDrive\OneDrive.exe'
+            if (Test-Path $odPath) { $found = $true }
+        }
+
+        if ($found) { $stillPresent.Add($id) } else { $confirmed.Add($id) }
+    }
+
+    Write-Host "  Confirmed removed : $($confirmed.Count)" -ForegroundColor Green
+
+    if ($stillPresent.Count -gt 0) {
+        Write-Host "  Still present     : $($stillPresent.Count)" -ForegroundColor Yellow
+        foreach ($id in $stillPresent) {
+            Write-Host "    - $id" -ForegroundColor Yellow
+        }
+    }
+}
